@@ -101,6 +101,8 @@ public class MyCamera extends AppCompatActivity {
                     return;
                 }
 
+
+                //TODO Rotate the image before saving
                 try {
                     FileOutputStream fos = new FileOutputStream(pictureFile);
                     fos.write(data);
